@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Products from './components/Products';
 import Testimony from './components/Testimony';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import './App.css';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <li><Link to="/testimony">Testimony</Link></li>
       </ul>
       
-        <div>
+        
           <Switch>
             <Route path="/" component={Home} exact /> 
             <Route path="/about" component={About} />
@@ -25,7 +26,7 @@ function App() {
             <Route path="/products" component={Products} />
             <Route path="/testimony" component={Testimony} />
           </Switch>            
-        </div>            
+                    
       </Router>
   );
 }
