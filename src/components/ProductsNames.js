@@ -9,14 +9,13 @@ function ProductsList({products}) {
                     <Link  to={`/${product.id}`}>
                         <h5>{product.name}</h5>
                     </Link>
-                    {product.description[1].substring(0, 150)}... 
                 </li>
                 )
             }
         </ul>
     );   
 }
-export default function Products() {
+export default function ProductsNames() {
     return (
     <>     
         <ProductsList products={ProductsData} /> 

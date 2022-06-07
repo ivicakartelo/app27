@@ -1,6 +1,8 @@
-export default function Home() {
+export default function Testimony() {
     return (
         <>
+
+        
             <h1>Testimony</h1>
             <p>
             Quisque congue risus quam, at laoreet tellus congue vitae. Vestibulum vitae vulputate nibh. Fusce eget orci eros. Phasellus sollicitudin consectetur elit, at vehicula nibh condimentum sed. Nunc sed faucibus nibh, nec ultrices ante. Nullam sit amet efficitur dui. Donec tempor felis et ante iaculis, eu consectetur metus ullamcorper. Morbi tellus eros, congue sed libero vitae, fringilla pretium turpis. Sed condimentum, lorem sit amet convallis mollis, ipsum diam tincidunt turpis, eu sollicitudin nisl nunc et nisi. Nulla facilisi. Sed at purus metus. Pellentesque interdum velit sit amet tortor egestas, pellentesque volutpat quam iaculis. Sed hendrerit quam quam, vitae tempus purus vehicula ac. Proin quis vulputate libero. Proin vel varius sem.
@@ -14,6 +16,7 @@ export default function Home() {
             <p>
             Maecenas lobortis erat ornare, convallis massa in, bibendum metus. Nulla consectetur eros sed libero sollicitudin, at laoreet ligula sodales. Morbi porttitor molestie neque ut fringilla. Fusce at pellentesque quam. Maecenas id elit enim. Vivamus maximus purus nibh, quis fringilla nunc consectetur quis. Pellentesque luctus sem ligula, eget pretium diam venenatis id. Integer dictum iaculis hendrerit.
             </p>
+        
         </>
     );
   }

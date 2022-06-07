@@ -1,6 +1,7 @@
 export default function Contact() {
     return (
     <>
+        
         <h1>Contact</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim leo nec eros fermentum, et sodales tortor tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer orci nibh, pulvinar a porttitor ac, volutpat sit amet ex. Duis vel iaculis purus, et vulputate quam. Nullam condimentum pretium libero eget hendrerit. Sed sagittis non lectus et dapibus. Aliquam pretium orci nunc, commodo mollis augue fringilla vitae. In hac habitasse platea dictumst. Sed consectetur cursus erat vitae maximus. Nunc in dictum ligula. Etiam in elit eget turpis tempor dictum. Suspendisse a lobortis erat. Ut at nulla vel ipsum sodales viverra.
@@ -15,6 +16,7 @@ export default function Contact() {
         <p>
         Maecenas lobortis erat ornare, convallis massa in, bibendum metus. Nulla consectetur eros sed libero sollicitudin, at laoreet ligula sodales. Morbi porttitor molestie neque ut fringilla. Fusce at pellentesque quam. Maecenas id elit enim. Vivamus maximus purus nibh, quis fringilla nunc consectetur quis. Pellentesque luctus sem ligula, eget pretium diam venenatis id. Integer dictum iaculis hendrerit.
         </p>
+        
     </>
     );
   }

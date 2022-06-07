@@ -1,33 +1,22 @@
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Products from './components/Products';
-import Testimony from './components/Testimony';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import TestimonyPage from './pages/TestimonyPage';
+import ProductPage from './pages/ProductPage';
 
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/products">Products</Link></li>
-        <li><Link to="/testimony">Testimony</Link></li>
-      </ul>
-      
-        
-          <Switch>
-            <Route path="/" component={Home} exact /> 
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />     
-            <Route path="/products" component={Products} />
-            <Route path="/testimony" component={Testimony} />
-          </Switch>            
-                    
-      </Router>
+    <Router>     
+      <Switch>
+        <Route path="/" component={HomePage} exact /> 
+        <Route path="/about" component={AboutPage} />
+        <Route path="/contact" component={ContactPage} />     
+        <Route path="/testimony" component={TestimonyPage} />
+        <Route path="/:id" component={ProductPage} />
+      </Switch>                        
+    </Router>
   );
 }
-export default App;
