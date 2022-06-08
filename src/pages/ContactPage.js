@@ -5,9 +5,15 @@ import Contact from '../components/Contact';
 export default function ContactPage() {
     return (
     <>
+    <div className="nav">
         <Header />
+    </div>
+        
         <Contact />
+    <div className="nav">
         <Footer />
+    </div>
+        
     </>
     );
   }

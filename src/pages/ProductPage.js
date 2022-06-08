@@ -8,14 +8,20 @@ export default function ProductPage({ match }) {
 
     return (
         <>
-        <Header />
+        <div className="nav">
+            <Header />
+        </div>
+        
             <h1>{product.name}</h1>
             {product.description.map((paragraph, key) => (
             <p key={key}>
                 {paragraph}
             </p>
             ))}
-        <Footer />
+        <div className="nav">
+            <Footer />
+        </div>
+        
         </>
     );		
 }
