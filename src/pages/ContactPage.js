@@ -5,14 +5,14 @@ import Contact from '../components/Contact';
 export default function ContactPage() {
     return (
     <>
-    <div className="nav">
+    <header>
         <Header />
-    </div>
+    </header>
         
         <Contact />
-    <div className="nav">
+    <footer>
         <Footer />
-    </div>
+    </footer>
         
     </>
     );

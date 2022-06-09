@@ -5,14 +5,14 @@ import About from '../components/About';
 export default function AboutPage() {
     return (
         <>
-        <div className="nav">
+        <header>
             <Header />
-        </div>
+        </header>
         
         <About />
-        <div className="nav">
+        <footer>
             <Footer />
-        </div>
+        </footer>
         </>
     );
   }

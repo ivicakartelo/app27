@@ -8,9 +8,9 @@ export default function ProductPage({ match }) {
 
     return (
         <>
-        <div className="nav">
+        <header>
             <Header />
-        </div>
+        </header>
         
             <h1>{product.name}</h1>
             {product.description.map((paragraph, key) => (
@@ -18,9 +18,9 @@ export default function ProductPage({ match }) {
                 {paragraph}
             </p>
             ))}
-        <div className="nav">
+        <footer>
             <Footer />
-        </div>
+        </footer>
         
         </>
     );		

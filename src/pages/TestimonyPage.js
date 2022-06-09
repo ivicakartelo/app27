@@ -5,14 +5,14 @@ import Testimony from '../components/Testimony';
 export default function TestimonyPage() {
     return (
         <>
-        <div className="nav">
+        <header>
             <Header />
-        </div>
+        </header>
             
             <Testimony />
-        <div className="nav">
+        <footer>
             <Footer />
-        </div>
+        </footer>
             
         </>
     );

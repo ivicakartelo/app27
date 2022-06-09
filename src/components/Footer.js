@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
     <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/testimony">Testimony</Link></li>
+        <li><p>Quisque sed tempus quam. </p><p>Quisque eleifend tempus odio, vel consequat urna. Morbi et convallis dolor. Ut a leo sit amet nisi pretium ullamcorper eget at nunc. Cras quis arcu vel ligula blandit volutpat nec a erat. Morbi eget ligula sed turpis faucibus posuere. Vestibulum sit amet malesuada</p><p> nulla, ac rhoncus ante. Mauris consectetur congue tellus ac mollis. Suspendisse potenti. Sed ac leo eros. Donec fermentum, </p><p>massa eget vestibulum sollicitudin, erat lacus auctor nulla, dignissim bibendum nunc dolor</p><p> id risus. Suspendisse eros quam, accumsan non </p><p>mattis et, cursus quis sapien. Vivamus et quam quam.</p></li>
+        <li><p>Quisque sed tempus quam. Quisque eleifend</p><p> tempus odio, vel consequat urna. Morbi et convallis dolor. Ut a leo sit amet nisi pretium ullamcorper eget at nunc. Cras </p><p>quis arcu vel ligula blandit volutpat nec a erat. Morbi eget ligula sed turpis faucibus </p><p>posuere. Vestibulum sit amet malesuada nulla, ac rhoncus ante. Mauris consectetur congue </p><p>tellus ac mollis. Suspendisse potenti. Sed ac leo eros. Donec fermentum, massa eget vestibulum sollicitudin, erat lacus auctor nulla, dignissim bibendum nunc dolor id risus. Suspendisse eros quam, </p><p>accumsan non mattis et, cursus quis sapien. Vivamus et quam quam.</p></li>
+        <li><p>Quisque sed </p><p>tempus quam. Quisque eleifend tempus odio, vel consequat urna. Morbi et convallis dolor. Ut a leo sit amet nisi pretium ullamcorper eget at nunc. Cras quis arcu</p><p> vel ligula blandit volutpat nec a erat. Morbi eget ligula sed turpis faucibus posuere. Vestibulum sit amet malesuada nulla, ac rhoncus ante. Mauris</p><p> consectetur congue tellus ac mollis. Suspendisse potenti. Sed ac leo eros. Donec fermentum, massa eget vestibulum sollicitudin, erat lacus auctor nulla, dignissim bibendum nunc dolor id risus. </p><p>Suspendisse eros quam, accumsan non</p><p> mattis et, cursus quis sapien. Vivamus et quam quam.</p></li>
+        <li><p>Quisque sed tempus quam. Quisque eleifend tempus odio, vel </p><p>consequat urna. Morbi et convallis dolor. Ut a leo sit amet nisi pretium ullamcorper eget at nunc. </p><p>Cras quis arcu vel ligula blandit volutpat nec a erat. Morbi eget ligula sed turpis faucibus posuere. Vestibulum sit amet malesuada nulla, ac </p><p>rhoncus ante. Mauris consectetur congue tellus ac mollis. Suspendisse potenti. Sed ac leo eros. Donec fermentum, massa eget vestibulum sollicitudin, erat lacus auctor nulla, </p><p>dignissim bibendum nunc dolor id risus. Suspendisse eros</p><p> quam, accumsan non mattis et, cursus quis sapien. Vivamus et quam quam.</p></li>
     </ul>   
     )
 }
