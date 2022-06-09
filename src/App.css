@@ -20,7 +20,7 @@ header ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #785125;
+  background-color: #5A2CAB;
 }
 
 header li {
@@ -29,7 +29,7 @@ header li {
 
 header li a {
   display: block;
-  color: #F9CB98;
+  color: #F7A84D;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -47,12 +47,12 @@ footer ul {
 }
 
 footer li {
-  color: #F9CB98;
+  color: #F7A84D;
   text-align: left;
   padding: 0 0 0 20px;
   margin: 0;
   float: left;
-  background-color: #785125;
+  background-color: #5A2CAB;
   width: 23%;
 }
 
@@ -79,7 +79,6 @@ article {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
 }
 
 article li {
@@ -91,14 +90,14 @@ article li {
 
 article li a {
   display: block;
-  color: #786249;
-  background-color: #F9CB98;
+  color: #F7A84D;
+  background-color: #7A34F7;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
 
 article li a:hover {
-  background-color: #C4853D;
-  color: #F9CB98;
+  background-color: #65F781;
+  color: #F7A84D;
 }
