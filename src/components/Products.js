@@ -8,7 +8,7 @@ function ProductsList({products}) {
             <article>
                 <li key={product.id}>
                     <Link  to={`/${product.id}`}>
-                    <h5>{product.name}</h5>
+                    <h2>{product.name}</h2>
                     </Link>
                     {product.description[1].substring(0, 150)}...
                 </li>
