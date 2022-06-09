@@ -1,5 +1,5 @@
 body {
-  background-color: #F7A84D;
+  background-color: #FFB969;
   color: black;
   line-height: 2rem;
   font-size: 1.2rem;
@@ -20,7 +20,7 @@ header ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #5A2CAB;
+  background-color: #137EAB;
 }
 
 header li {
@@ -52,7 +52,7 @@ footer li {
   padding: 0 0 0 20px;
   margin: 0;
   float: left;
-  background-color: #5A2CAB;
+  background-color: #137EAB;
   width: 23%;
 }
 
@@ -91,13 +91,13 @@ article li {
 article li a {
   display: block;
   color: #F7A84D;
-  background-color: #7A34F7;
+  background-color: #137EAB;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
 
 article li a:hover {
-  background-color: #65F781;
+  background-color: #4DC5F7;
   color: #F7A84D;
 }
