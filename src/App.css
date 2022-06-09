@@ -20,7 +20,7 @@ header ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #E0A63A;
+  background-color: #785125;
 }
 
 header li {
@@ -29,14 +29,15 @@ header li {
 
 header li a {
   display: block;
-  color: rgb(249, 246, 246);
+  color: #F9CB98;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
 
 header li a:hover {
-  background-color: #E07B3A;
+  background-color: #F7A84D;
+  color: #785125;
 }
 
 footer ul {
@@ -46,12 +47,12 @@ footer ul {
 }
 
 footer li {
-  color: #ffffff;
+  color: #F9CB98;
   text-align: left;
   padding: 0 0 0 20px;
   margin: 0;
   float: left;
-  background-color: #FC6E41;
+  background-color: #785125;
   width: 23%;
 }
 
@@ -90,14 +91,14 @@ article li {
 
 article li a {
   display: block;
-  color: #FCCD41;
-  background-color: #E07B3A;
+  color: #786249;
+  background-color: #F9CB98;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
 
 article li a:hover {
-  background-color: #E0A63A;
-  color: white;
+  background-color: #C4853D;
+  color: #F9CB98;
 }
