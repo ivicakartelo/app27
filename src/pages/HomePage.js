@@ -6,16 +6,37 @@ import Footer from '../components/Footer';
 export default function HomePage() {
     return (
       <>
-      <header>
-        <Header />
-      </header>
-        <Home />
+      <div className="container">
+            <div className="grid12">
+                <header>
+                    <nav>
+                        <Header />
+                    </nav>
+                </header>
+            </div>
+
+            <div className="grid6">    
+                <article>
+                    <Home />
+                </article>
+            </div>
+
+            <div className="grid6">
+                <aside>
+                    <Products />
+                </aside>
+            </div>
+
+        <div className="grid12">
+                <hr />
+            </div>
       
-        <Products />
-      
-      <footer>
-        <Footer />
-      </footer>
+      <div className="grid12">
+                <footer>
+                    <Footer />
+                </footer>
+            </div>
+        </div>
         
       </>  
     )
