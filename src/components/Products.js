@@ -3,21 +3,22 @@ import { Link } from 'react-router-dom';
 
 function ProductsList({products}) {
     return (
-        <ul className="products">
-            {products.map((product) =>
-            <article>
-                <li key={product.id}>
+        <>
+        {products.map((product) =>
+            <div key={product.id} className="grid2">
+                <section>
                     <Link  to={`/${product.id}`}>
-                    <h2>{product.name}</h2>
+                    <h5>{product.name}</h5>
                     </Link>
                     {product.description[1].substring(0, 150)}...
-                </li>
-            </article>
+                </section>
+            </div>
             )
-            }
-        </ul>
-    );   
-}
+        }
+        </>
+    );  
+}           
+
 export default function Products() {
     return (
     <>     

@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 export default function HomePage() {
     return (
       <>
-      <div className="container">
+        <div className="container">
             <div className="grid12">
                 <header>
                     <nav>
@@ -15,29 +15,25 @@ export default function HomePage() {
                 </header>
             </div>
 
-            <div className="grid6">    
+            <div className="grid12">    
                 <article>
                     <Home />
                 </article>
             </div>
 
-            <div className="grid6">
-                <aside>
-                    <Products />
-                </aside>
-            </div>
+            <article>
+                <Products />
+            </article>
 
-        <div className="grid12">
+            <div className="grid12">
                 <hr />
             </div>
-      
-      <div className="grid12">
+            <div className="grid12">
                 <footer>
                     <Footer />
                 </footer>
             </div>
         </div>
-        
       </>  
     )
 }
