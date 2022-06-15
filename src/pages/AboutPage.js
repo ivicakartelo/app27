@@ -15,6 +15,8 @@ export default function AboutPage() {
                 </header>
             </div>
 
+            <img src="assets/images/3.jpg" />
+
             <div className="grid9">    
                 <article>
                     <About />

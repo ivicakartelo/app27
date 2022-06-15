@@ -120,3 +120,7 @@ footer {
   margin-bottom: -1000px; /* for two parallel div to be the same height */
 }
 
+img {
+  width: 100%;
+}
+

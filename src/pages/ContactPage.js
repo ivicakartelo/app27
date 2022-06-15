@@ -14,7 +14,9 @@ export default function ContactPage() {
                     </nav>
                 </header>
             </div>
-        
+
+            <img src="assets/images/2.jpg" />
+
             <div className="grid9">    
                 <article>
                 <Contact />

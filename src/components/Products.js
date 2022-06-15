@@ -10,6 +10,7 @@ function ProductsList({products}) {
                     <Link  to={`/${product.id}`}>
                     <h5>{product.name}</h5>
                     </Link>
+                    <img src={product.image} />
                     {product.description[1].substring(0, 150)}...
                 </section>
             </div>

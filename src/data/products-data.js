@@ -1,6 +1,7 @@
 const products = [
     {
         id: '1',
+        image: 'assets/images/1.jpg',
         name: 'Product1',
         description: [
             `Croin congue ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
@@ -24,6 +25,7 @@ const products = [
     },    
     {
         id: '2',
+        image: 'assets/images/2.jpg',
         name: 'Product2',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
@@ -46,6 +48,7 @@ const products = [
     },     
     {
         id: '3',
+        image: 'assets/images/3.jpg',
         name: 'Product3',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
@@ -69,6 +72,7 @@ const products = [
     },
     {
         id: '4',
+        image: 'assets/images/6.jpg',
         name: 'Product4',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
@@ -92,6 +96,7 @@ const products = [
     },
     {
         id: '5',
+        image: 'assets/images/7.jpg',
         name: 'Product5',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
@@ -115,6 +120,7 @@ const products = [
     },
     {
         id: '6',
+        image: 'assets/images/8.jpg',
         name: 'Products6',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
@@ -137,6 +143,7 @@ const products = [
         ]
     }, {
         id: '7',
+        image: 'assets/images/10.jpg',
         name: 'Product7',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 

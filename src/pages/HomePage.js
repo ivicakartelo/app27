@@ -15,6 +15,8 @@ export default function HomePage() {
                 </header>
             </div>
 
+            <img src="assets/images/1.jpg" />
+
             <div className="grid12">    
                 <article>
                     <Home />
@@ -28,11 +30,13 @@ export default function HomePage() {
             <div className="grid12">
                 <hr />
             </div>
+            
             <div className="grid12">
                 <footer>
                     <Footer />
                 </footer>
             </div>
+        
         </div>
       </>  
     )

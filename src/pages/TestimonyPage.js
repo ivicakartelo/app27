@@ -15,6 +15,8 @@ export default function TestimonyPage() {
                 </header>
             </div>
 
+            <img src="assets/images/6.jpg" />
+
             <div className="grid9">    
                 <article>
                     <Testimony />
