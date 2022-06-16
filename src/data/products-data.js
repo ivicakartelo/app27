@@ -85,7 +85,7 @@ const products = [
         comments: [
             {
             id: 0,
-            rating: 5,
+            rating: 2,
             comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
             author: "Sethy Humy",
             date: "2022-05-16T17:57:28.556094Z"
@@ -146,7 +146,7 @@ const products = [
         comments: [
             {
             id: 0,
-            rating: 5,
+            rating: 4,
             comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
             author: "Sethy Humy",
             date: "2022-05-16T17:57:28.556094Z"
@@ -207,7 +207,7 @@ const products = [
         comments: [
             {
             id: 0,
-            rating: 5,
+            rating: 3,
             comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
             author: "Sethy Humy",
             date: "2022-05-16T17:57:28.556094Z"
@@ -268,7 +268,7 @@ const products = [
         comments: [
             {
             id: 0,
-            rating: 5,
+            rating: 1,
             comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
             author: "Sethy Humy",
             date: "2022-05-16T17:57:28.556094Z"
@@ -329,7 +329,7 @@ const products = [
         comments: [
             {
             id: 0,
-            rating: 5,
+            rating: 4,
             comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
             author: "Sethy Humy",
             date: "2022-05-16T17:57:28.556094Z"
@@ -389,7 +389,7 @@ const products = [
         comments: [
             {
             id: 0,
-            rating: 5,
+            rating: 3,
             comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
             author: "Sethy Humy",
             date: "2022-05-16T17:57:28.556094Z"

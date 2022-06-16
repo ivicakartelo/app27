@@ -20,8 +20,8 @@ export default function ProductPage({ match }) {
 
             <div className="grid9">    
                 <article>
-                    <h1>{product.name}</h1>
                     <img src={product.image} />
+                    <h1>{product.name}</h1>
                     {product.description.map((paragraph, key) => (
                     <p key={key}>
                     {paragraph}
@@ -36,8 +36,7 @@ export default function ProductPage({ match }) {
                             <p>Comment: {x.comment}</p>
                         </div>
                       ))}
-                      
-                      
+
                 </article>
             </div>
 
