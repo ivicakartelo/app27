@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import TestimonyPage from './pages/TestimonyPage';
 import ProductPage from './pages/ProductPage';
+import ProductsPage from './pages/ProductsPage';
 
 
 export default function App() {
@@ -15,7 +16,10 @@ export default function App() {
         <Route path="/about" component={AboutPage} />
         <Route path="/contact" component={ContactPage} />     
         <Route path="/testimony" component={TestimonyPage} />
+        <Route path="/products" component={ProductsPage} />
+        
         <Route path="/:id" component={ProductPage} />
+        
       </Switch>                        
     </Router>
   );

@@ -5,7 +5,7 @@ function ProductsList({products}) {
     return (
         <>
         {products.map((product) =>
-            <div key={product.id} className="grid2">
+            <div key={product.id} className="grid4">
                 <section>
                     <Link  to={`/${product.id}`}>
                     <h5>{product.name}</h5>
