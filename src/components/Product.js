@@ -13,6 +13,7 @@ export default function Product({ match }) {
         <p key={key}>
             {paragraph}
         </p>
+        
         ))}
         <Footer />
         </>

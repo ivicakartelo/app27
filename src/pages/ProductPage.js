@@ -26,7 +26,18 @@ export default function ProductPage({ match }) {
                     <p key={key}>
                     {paragraph}
                     </p>
-                    ))}
+                      ))
+                      }
+                      <h2>Comments</h2>
+                      {product.comments.map((x, key) => (
+                        <div>
+                            <p>Rating: {x.rating}</p>
+                            <p>Author: {x.author}</p>
+                            <p>Comment: {x.comment}</p>
+                        </div>
+                      ))}
+                      
+                      
                 </article>
             </div>
 

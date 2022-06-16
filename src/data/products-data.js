@@ -21,7 +21,44 @@ const products = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        comments: [
+            {
+            id: 0,
+            rating: 5,
+            comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
+            author: "Sethy Humy",
+            date: "2022-05-16T17:57:28.556094Z"
+            },
+            {
+            id: 1,
+            rating: 4,
+            comment: "Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus",
+            author: "Miu Avy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 2,
+            rating: 3,
+            comment: "Pulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifend",
+            author: "Gheny Almy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 3,
+            rating: 4,
+            comment: "Egestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectus",
+            author: "Gere Hook",
+            date: "2022-06-12T17:57:28.556094Z"
+            },
+            {
+            id: 4,
+            rating: 2,
+            comment: "Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.",
+            author: "Mett Very",
+            date: "2022-06-14T17:57:28.556094Z"
+            }
+        ]  
     },    
     {
         id: '2',
@@ -44,7 +81,44 @@ const products = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        comments: [
+            {
+            id: 0,
+            rating: 5,
+            comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
+            author: "Sethy Humy",
+            date: "2022-05-16T17:57:28.556094Z"
+            },
+            {
+            id: 1,
+            rating: 4,
+            comment: "Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus",
+            author: "Miu Avy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 2,
+            rating: 3,
+            comment: "Pulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifend",
+            author: "Gheny Almy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 3,
+            rating: 4,
+            comment: "Egestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectus",
+            author: "Gere Hook",
+            date: "2022-06-12T17:57:28.556094Z"
+            },
+            {
+            id: 4,
+            rating: 2,
+            comment: "Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.",
+            author: "Mett Very",
+            date: "2022-06-14T17:57:28.556094Z"
+            }
+        ]  
     },     
     {
         id: '3',
@@ -68,7 +142,44 @@ const products = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        comments: [
+            {
+            id: 0,
+            rating: 5,
+            comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
+            author: "Sethy Humy",
+            date: "2022-05-16T17:57:28.556094Z"
+            },
+            {
+            id: 1,
+            rating: 4,
+            comment: "Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus",
+            author: "Miu Avy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 2,
+            rating: 3,
+            comment: "Pulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifend",
+            author: "Gheny Almy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 3,
+            rating: 4,
+            comment: "Egestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectus",
+            author: "Gere Hook",
+            date: "2022-06-12T17:57:28.556094Z"
+            },
+            {
+            id: 4,
+            rating: 2,
+            comment: "Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.",
+            author: "Mett Very",
+            date: "2022-06-14T17:57:28.556094Z"
+            }
+        ]  
     },
     {
         id: '4',
@@ -92,7 +203,44 @@ const products = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        comments: [
+            {
+            id: 0,
+            rating: 5,
+            comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
+            author: "Sethy Humy",
+            date: "2022-05-16T17:57:28.556094Z"
+            },
+            {
+            id: 1,
+            rating: 4,
+            comment: "Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus",
+            author: "Miu Avy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 2,
+            rating: 3,
+            comment: "Pulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifend",
+            author: "Gheny Almy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 3,
+            rating: 4,
+            comment: "Egestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectus",
+            author: "Gere Hook",
+            date: "2022-06-12T17:57:28.556094Z"
+            },
+            {
+            id: 4,
+            rating: 2,
+            comment: "Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.",
+            author: "Mett Very",
+            date: "2022-06-14T17:57:28.556094Z"
+            }
+        ]  
     },
     {
         id: '5',
@@ -116,6 +264,43 @@ const products = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+        ],
+        comments: [
+            {
+            id: 0,
+            rating: 5,
+            comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
+            author: "Sethy Humy",
+            date: "2022-05-16T17:57:28.556094Z"
+            },
+            {
+            id: 1,
+            rating: 4,
+            comment: "Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus",
+            author: "Miu Avy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 2,
+            rating: 3,
+            comment: "Pulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifend",
+            author: "Gheny Almy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 3,
+            rating: 4,
+            comment: "Egestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectus",
+            author: "Gere Hook",
+            date: "2022-06-12T17:57:28.556094Z"
+            },
+            {
+            id: 4,
+            rating: 2,
+            comment: "Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.",
+            author: "Mett Very",
+            date: "2022-06-14T17:57:28.556094Z"
+            }
         ]
     },
     {
@@ -140,6 +325,43 @@ const products = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+        ],
+        comments: [
+            {
+            id: 0,
+            rating: 5,
+            comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
+            author: "Sethy Humy",
+            date: "2022-05-16T17:57:28.556094Z"
+            },
+            {
+            id: 1,
+            rating: 4,
+            comment: "Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus",
+            author: "Miu Avy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 2,
+            rating: 3,
+            comment: "Pulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifend",
+            author: "Gheny Almy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 3,
+            rating: 4,
+            comment: "Egestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectus",
+            author: "Gere Hook",
+            date: "2022-06-12T17:57:28.556094Z"
+            },
+            {
+            id: 4,
+            rating: 2,
+            comment: "Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.",
+            author: "Mett Very",
+            date: "2022-06-14T17:57:28.556094Z"
+            }
         ]
     }, {
         id: '7',
@@ -163,7 +385,44 @@ const products = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        comments: [
+            {
+            id: 0,
+            rating: 5,
+            comment: "Donec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornareDonec finibus lectus Nam eleifend egestas viverra. Donec finibus lectus sed lorem ultricies, eget ornare",
+            author: "Sethy Humy",
+            date: "2022-05-16T17:57:28.556094Z"
+            },
+            {
+            id: 1,
+            rating: 4,
+            comment: "Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectusNunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus",
+            author: "Miu Avy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 2,
+            rating: 3,
+            comment: "Pulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifendPulvinar diam. Nam eleifend",
+            author: "Gheny Almy",
+            date: "2022-06-11T17:57:28.556094Z"
+            },
+            {
+            id: 3,
+            rating: 4,
+            comment: "Egestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectusEgestas viverra. Donec finibus lectus",
+            author: "Gere Hook",
+            date: "2022-06-12T17:57:28.556094Z"
+            },
+            {
+            id: 4,
+            rating: 2,
+            comment: "Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.Diam. Nam eleifend egestas viverra.",
+            author: "Mett Very",
+            date: "2022-06-14T17:57:28.556094Z"
+            }
+        ] 
     }, 
 ];
 export default products;
