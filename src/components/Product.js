@@ -6,16 +6,12 @@ export default function Product({ match }) {
 
     return (
         <>
-        
-        <Header />
-        <h1>{product.name}</h1>
-        {product.description.map((paragraph, key) => (
-        <p key={key}>
-            {paragraph}
-        </p>
-        
-        ))}
-        <Footer />
+            <h1>{product.name}</h1>
+            {product.description.map((paragraph, key) => (
+            <p key={key}>
+                {paragraph}
+            </p>
+            ))}
         </>
     );		
 }

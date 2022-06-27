@@ -6,6 +6,7 @@ import ContactPage from './pages/ContactPage';
 import TestimonyPage from './pages/TestimonyPage';
 import ProductPage from './pages/ProductPage';
 import ProductsPage from './pages/ProductsPage';
+import ArrayMap from './JavaScript6/ArrayMap';
 
 
 export default function App() {
@@ -17,7 +18,8 @@ export default function App() {
         <Route path="/contact" component={ContactPage} />     
         <Route path="/testimony" component={TestimonyPage} />
         <Route path="/products" component={ProductsPage} />
-        
+        <Route path="/arraymap" component={ArrayMap} />
+
         <Route path="/:id" component={ProductPage} />
         
       </Switch>                        

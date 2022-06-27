@@ -30,13 +30,13 @@ export default function ProductPage({ match }) {
                       }
                       <h2>Comments</h2>
                       {product.comments.map((x, key) => (
-                        <div>
+                        <div key={key}>
                             <p>Rating: {x.rating}</p>
                             <p>Author: {x.author}</p>
+                            <p>Date: {x.date}</p>
                             <p>Comment: {x.comment}</p>
                         </div>
                       ))}
-
                 </article>
             </div>
 
