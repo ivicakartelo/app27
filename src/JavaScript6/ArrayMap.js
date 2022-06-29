@@ -9,6 +9,19 @@ console.log(map1);
 // expected output: Array [2, 4, 6, 8, 10]
 
 
+function init() {
+    var name = 'Mozilla'; // name is a local variable created by init
+    function displayName() { // displayName() is the inner function, a closure
+      alert(name); // use variable declared in the parent function
+    }
+    displayName();
+  }
+  init();
+  console.log(displayName);
+  
+  
+
+
 function ArrayList({numbers}) {
     return (
         <>
