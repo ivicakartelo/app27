@@ -9,8 +9,8 @@ function ProductsList({products}) {
                 <section>
                     <Link  to={`/${product.id}`}>
                     <h5>{product.name}</h5>
-                    </Link>
                     <img src={product.image} />
+                    </Link>
                     
                 </section>
             </div>

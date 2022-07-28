@@ -17,11 +17,13 @@ export default function ProductPage({ match }) {
                     </nav>
                 </header>
             </div>
-
-            <div className="grid9">    
                 <article>
+                <div className="grid12">
                     <img src={product.image} />
-                    <h1>{product.name}</h1>
+                </div>
+                <div className="grid3"><h1>Product:</h1></div>
+                <div className="grid6">
+                <h1>{product.name}</h1>
                     {product.description.map((paragraph, key) => (
                     <p key={key}>
                     {paragraph}
@@ -37,14 +39,11 @@ export default function ProductPage({ match }) {
                             <p>Comment: {x.comment}</p>
                         </div>
                       ))}
+                </div>
+                
+                <div className="grid3"></div>
+                    
                 </article>
-            </div>
-
-            <div className="grid3">
-                <aside>
-                    <ProductsNames />
-                </aside>
-            </div>
 
             <div className="grid12">
                 <hr />
@@ -55,7 +54,6 @@ export default function ProductPage({ match }) {
                     <Footer />
                 </footer>
             </div>
-    
         </div>   
         </>
     );		

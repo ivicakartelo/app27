@@ -17,17 +17,13 @@ export default function AboutPage() {
 
             <img src="assets/images/3.jpg" />
 
-            <div className="grid9">    
+            <div className="grid3"><h1>Topic:</h1></div>
+            <div className="grid6">    
                 <article>
                     <About />
                 </article>
             </div>
-
-            <div className="grid3">
-                <aside>
-                    <ProductsNames />
-                </aside>
-            </div>
+            <div className="grid3"></div>
             
             <div className="grid12">
                 <hr />

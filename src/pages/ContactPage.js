@@ -16,17 +16,12 @@ export default function ContactPage() {
             </div>
 
             <img src="assets/images/2.jpg" />
-
-            <div className="grid9">    
+            <div className="grid3"><h1>Topic:</h1></div>
+            <div className="grid6">    
                 <article>
                 <Contact />
                 </article>
-            </div>
-
-            <div className="grid3">
-                <aside>
-                    <ProductsNames />
-                </aside>
+            <div className="grid3"></div>
             </div>
         
             <div className="grid12">

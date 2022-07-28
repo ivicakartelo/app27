@@ -16,18 +16,13 @@ export default function TestimonyPage() {
             </div>
 
             <img src="assets/images/6.jpg" />
-
-            <div className="grid9">    
+            <div className="grid3"><h1>Topic:</h1></div>
+            <div className="grid6">    
                 <article>
                     <Testimony />
                 </article>
             </div>
-
-            <div className="grid3">
-                <aside>
-                    <ProductsNames />
-                </aside>
-            </div>
+            <div className="grid3"></div>
             
             <div className="grid12">
                 <hr />
