@@ -3,6 +3,7 @@ const products = [
         id: '1',
         image: 'assets/images/1.jpg',
         name: 'Product1',
+        alt: '1.jpg',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
             non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
@@ -63,6 +64,7 @@ const products = [
         id: '2',
         image: 'assets/images/2.jpg',
         name: 'Product2',
+        alt: '2.jpg',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
             non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
@@ -123,6 +125,7 @@ const products = [
         id: '3',
         image: 'assets/images/3.jpg',
         name: 'Product3',
+        alt: '3.jpg',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
             Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
@@ -184,6 +187,7 @@ const products = [
         id: '4',
         image: 'assets/images/6.jpg',
         name: 'Product4',
+        alt: '6.jpg',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
             Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
@@ -245,6 +249,7 @@ const products = [
         id: '5',
         image: 'assets/images/7.jpg',
         name: 'Product5',
+        alt: '7.jpg',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
             Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
@@ -306,6 +311,7 @@ const products = [
         id: '6',
         image: 'assets/images/8.jpg',
         name: 'Products6',
+        alt: '8.jpg',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
             Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
@@ -366,6 +372,7 @@ const products = [
         id: '7',
         image: 'assets/images/10.jpg',
         name: 'Product7',
+        alt: '10.jpg',
         description: [
             `Vel eleifend ex egestas. Sed in turpis leo. 
             Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
