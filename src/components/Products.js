@@ -11,6 +11,8 @@ function ProductsList({products}) {
                         <h5>{product.name}</h5>
                         <img src={product.image} alt={product.alt}/>
                     </Link>
+                        {product.description[1].substring(0, 150)}...
+                    
                 </section>
             </div>
             )
