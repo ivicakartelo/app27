@@ -2,10 +2,14 @@ import ProductsData from '../data/products-data';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProductsNames from '../components/ProductsNames';
+import { useParams } from 'react-router-dom';
+import products from '../data/products-data';
 
 export default function ProductPage({ match }) {
-    const id = match.params.id;
-    const product = ProductsData.find(x => x.id === id);
+    const {id} = useParams;
+    const product = ProductsData[id];
+    
+    
     
     return (
         <>

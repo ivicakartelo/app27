@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -12,17 +12,17 @@ import ArrayMap from './JavaScript6/ArrayMap';
 export default function App() {
   return (
     <Router>     
-      <Switch>
-        <Route path="/" component={HomePage} exact /> 
-        <Route path="/about" component={AboutPage} />
-        <Route path="/contact" component={ContactPage} />     
-        <Route path="/testimony" component={TestimonyPage} />
-        <Route path="/products" component={ProductsPage} />
-        <Route path="/arraymap" component={ArrayMap} />
+      <Routes>
+        <Route path="/" element={<HomePage />} /> 
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />     
+        <Route path="/testimony" element={<TestimonyPage />} />
+        <Route path="/products" element={<ProductsPage />} />
+        <Route path="/arraymap" element={<ArrayMap />} />
 
-        <Route path="/:id" component={ProductPage} />
+        <Route path="/:id" element={<ProductPage />} />
         
-      </Switch>                        
+      </Routes>                        
     </Router>
   );
 }
